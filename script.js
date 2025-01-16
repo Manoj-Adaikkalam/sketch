@@ -21,8 +21,9 @@ def_case();
 function def_color(){
 
     const contents = document.querySelectorAll(".content");
+    const colorinput = document.querySelector("#colorselect");
 
-    contents.forEach(sel => {sel.addEventListener("mouseenter",()=>{sel.style.backgroundColor = "black"})})
+    contents.forEach(sel => {sel.addEventListener("mouseenter",()=>{sel.style.backgroundColor = colorinput.value})})
 
 }
 
