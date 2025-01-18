@@ -54,8 +54,6 @@ body {
     background-color: white;
 }
 
-
-
  
 #colorselect{
     width: 220px;
@@ -63,12 +61,17 @@ body {
     
 }
 
-
-
-
 /*
 .content:hover{
     background-color: black; 
 }*/
 
 
+#num,#siz{
+    height: 40px;
+}
+
+
+#num{
+    text-align: center;
+}
